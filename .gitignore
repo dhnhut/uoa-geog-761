@@ -1,8 +1,15 @@
 *.docx
 *.pdf
 .env
+*.zip
+dataset
+*.shp
+*.shx
+
 *.ipynb_checkpoints
 *.pyc
 __pycache__/
 *.DS_Store
 *.vscode
+
+
