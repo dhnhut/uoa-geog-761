@@ -1,3 +1,5 @@
+from IPython import get_ipython
+
 if 'google.colab' in str(get_ipython()):
     from google.colab import userdata
     EE_PROJECT_ID = userdata.get('EE_PROJECT_ID') 
